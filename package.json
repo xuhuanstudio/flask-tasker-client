@@ -1,0 +1,28 @@
+{
+  "name": "flask-tasker-client",
+  "version": "0.1.1",
+  "description": "Client for the flask-tasker framework.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flask-tasker-client",
+    "flask-tasker",
+    "flask",
+    "task",
+    "tasker",
+    "client"
+  ],
+  "author": "wangqh",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.7.2"
+  }
+}
